@@ -1,0 +1,4 @@
+*.sublime-*
+.DS_*
+node_modules
+*.log

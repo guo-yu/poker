@@ -1,0 +1,36 @@
+{
+  "name": "poker",
+  "version": "0.0.1",
+  "description": "a smart signin simulator and testaccounts switcher base on Node",
+  "main": "index.js",
+  "author": "turing",
+  "license": "MIT",
+  "bin": {
+    "poker": "./bin/cli"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/turingou/poker"
+  },
+  "bugs": {
+    "url": "https://github.com/turingou/poker/issues"
+  },
+  "keywords": [
+    "poker",
+    "simulator",
+    "login",
+    "signin",
+    "test accounts",
+    "test"
+  ],
+  "dependencies" : {
+    "request": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  }
+}
