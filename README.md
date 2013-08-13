@@ -24,7 +24,7 @@ poker.add({
     alias: 'testAccountNo.1',
     username: 'abc',
     password: '123'
-}).mock(function(err,result){
+}).mock(function(err, res, result){
     console.log(result)
 });
 
@@ -45,7 +45,7 @@ poker.add(
     }]);
 
 // switch to selected user will signin automatically
-poker.mock('testAccountNo.1',function(result){
+poker.mock('testAccountNo.1',function(err, res, result){
     console.log(result);
 });
 ````
