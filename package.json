@@ -1,13 +1,10 @@
 {
   "name": "poker",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "a smart signin simulator and testaccounts switcher base on Node",
   "main": "index.js",
   "author": "turing",
   "license": "MIT",
-  "bin": {
-    "poker": "./bin/cli"
-  },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha ./test/test.js"
   },
@@ -27,8 +24,8 @@
     "test"
   ],
   "dependencies" : {
-    "request": "*",
-    "underscore" : "*"
+    "request": "~2.37.0",
+    "underscore" : "~1.5.1"
   },
   "devDependencies": {
     "mocha": "*",
